@@ -1,0 +1,45 @@
+GIT Notes
+
+
+git clone "E:\GIT_HOME"
+
+
+git clone C:\folder1 folder2
+
+git clone path/to/source/folder path/to/destination/folder
+
+
+
+
+https://kubedemy.io/jenkins-tutorial-part-10-work-with-git-in-pipeline
+
+
+
+
+ammending example
+**this works"
+
+ git commit --amend  -m "start of commits "
+[master d63de9e] start of commits
+ Date: Thu May 29 15:18:38 2025 -0400
+ 5 files changed, 86 insertions(+)
+ create mode 100644 DoLambda.java
+ create mode 100644 Function_1.java
+ create mode 100644 JenkinsPipelineTest.java
+ create mode 100644 JenkinsTest.java
+ create mode 100644 git_Notes.txt
+
+Public@hy80 MINGW64 /e/GIT_HOME (master)
+$
+
+Public@hy80 MINGW64 /e/GIT_HOME (master)
+$ git log
+commit d63de9e5c04bbb04d48758f77fdfbdf28268b2da (HEAD -> master)
+Author: unknown <you@example.com>
+Date:   Thu May 29 15:18:38 2025 -0400
+
+    start of commits
+
+Public@hy80 MINGW64 /e/GIT_HOME (master)
+$
+
