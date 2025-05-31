@@ -7,7 +7,7 @@ class Node:
     print("__init__")
     this.f=f
     
-  def __call__(self):
+  def __call__(this):
     print("Starting Wrapped Function")
     this.f()
     print("Completed Wrapped Function")
