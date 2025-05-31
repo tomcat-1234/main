@@ -4,7 +4,7 @@
 class Node:
 
   def __init__(this,arg):
-    pass:
+    print("__init__")
 
   def __call__(self,f):
     print("Starting Wrapped Function")
