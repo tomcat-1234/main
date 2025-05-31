@@ -3,12 +3,13 @@
 
 class Node:
 
-  def __init__(this,arg):
+  def __init__(this,f):
     print("__init__")
-
-  def __call__(self,f):
+    this.f=f
+    
+  def __call__(self):
     print("Starting Wrapped Function")
-    f()
+    this.f()
     print("Completed Wrapped Function")
 
 
