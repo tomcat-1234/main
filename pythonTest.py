@@ -12,7 +12,11 @@ class Node:
     print("Completed Wrapped Function")
 
 
-
+@Node
 def function1():
   print("Production Function")
   
+
+
+function1()
+
